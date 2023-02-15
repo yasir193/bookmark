@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+}
+.submitButton{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: transparent 1px solid;
+    padding: 5px 8px;
+    
+}
+input{
+    border: transparent;
+    border-radius: 5px;
+}
+.formContent{
+    position: relative;
+}
+.formContent::after{
+    content: "";
+    position: absolute;
+    top: 115%;
+    width: 124%;
+    height: 1px;
+    background-color: rgb(211, 209, 209);
+}
+.visitButton{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    border: transparent 1px solid;
+    padding: 5px 8px;
+}
+.deletebutton{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: transparent 1px solid;
+    padding: 5px 8px;
+}
